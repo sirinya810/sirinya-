@@ -7,4 +7,12 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-price = int(input())
+price = int(input("ราคาสินค้า :"))
+if price >=2000:
+    price = price - 200
+    print(f"ราคาสุทธิที่ต้องชำระคือ {price}")
+elif price >=1000:
+    price = price - 100
+    print(f"ราคาสุทธิที่ต้องชำระคือ {price}")
+else:
+    print(f"ราคาสุทธิที่ต้องชำระคือ {price}")
