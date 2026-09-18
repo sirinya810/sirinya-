@@ -7,4 +7,10 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-speed = int(input())
+speed = int(input("ความเร็วรถยนต์ :"))
+if speed <= 60:
+    print("Normal")
+elif speed <= 90:
+    print("Fast")
+else:
+    print("Too Fast")
